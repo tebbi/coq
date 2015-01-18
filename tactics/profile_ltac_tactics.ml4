@@ -30,3 +30,7 @@ VERNAC COMMAND EXTEND ShowProfile
  [ "Show" "Profile" ] -> [ print_results() ]
 END
 
+
+VERNAC COMMAND EXTEND ShowProfileTactic
+ [ "Show" "Profile" string(s) ] -> [ print_results_tactic s ]
+END

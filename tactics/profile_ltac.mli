@@ -6,4 +6,6 @@ val entered_call : unit -> unit
 
 val print_results : unit -> unit
 
+val print_results_tactic : string -> unit
+			      
 val reset_profile : unit -> unit
